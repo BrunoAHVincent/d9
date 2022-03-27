@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3dedb0d1c9a70d9b5409b6d543baa1cb7c2319fe',
+        'reference' => 'c4c2273a96122d4737f399d3b02036eb6324c761',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -649,6 +649,15 @@
                 0 => '9.3.9',
             ),
         ),
+        'drupal/pathauto' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/pathauto',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
+        ),
         'drupal/quickedit' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -667,7 +676,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3dedb0d1c9a70d9b5409b6d543baa1cb7c2319fe',
+            'reference' => 'c4c2273a96122d4737f399d3b02036eb6324c761',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
